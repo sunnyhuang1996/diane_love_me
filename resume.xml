@@ -37,8 +37,8 @@
 				<title>Web Master</title>
 				<description>maintain Vic College website</description>
 				<period>
-					<startPeriod>2014-04-26</startPeriod>
-					<endPeriod>2014-08-31<endPeriod>
+					<startDate>2014-04-26</startDate>
+					<endDate>2014-08-31</endDate>
 				</period>
 			</position>
 		</experience>
@@ -82,8 +82,8 @@
 				<title>IT Frontdesk</title>
 				<description>solve Wifi, cdf, software problems</description>
 				<period>
-					<startPeriod>2016-01-26</startPeriod>
-					<endPeriod>2016-05-31<endPeriod>
+					<startDate>2016-01-26</startDate>
+					<endDate>2016-05-31</endDate>
 				</period>
 			</position>
 		</experience>
