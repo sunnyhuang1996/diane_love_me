@@ -1,13 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE interviews SYSTEM "interview.dtd">
 <interviews>
-	<interviewer sID="s10089">
-		<forename>Suzanne</forename>
-		<surname>Stevenson</surname>
-		<honorific>Ms.</honorific>
-		<honorific>Professor</honorific>
-		<title>Dean</title>
-	</interviewer>
 	<interview rID="r1234" pID="p2345" sID="s10089">
 		<date>2016-03-16</date>
 		<time>14:00</time>
@@ -30,4 +23,11 @@
 			<collegiality>82</collegiality>
 		</assessment>
 	</interview>
+	<interviewer sID="s10089">
+		<forename>Suzanne</forename>
+		<surname>Stevenson</surname>
+		<honorific>Ms.</honorific>
+		<honorific>Professor</honorific>
+		<title>Dean</title>
+	</interviewer>
 </interviews>
