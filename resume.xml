@@ -44,7 +44,7 @@
 		</experience>
 		<skills>
 			<skill what="R" level="4"/>
-			<skill what="LaTex" level="3"/>
+			<skill what="LaTeX" level="3"/>
 			<skill what="Python" level="5"/>
 		</skills>
 	</resume>
@@ -88,7 +88,7 @@
 			</position>
 		</experience>
 		<skills>
-			<skill what="LaTex" level="3"/>
+			<skill what="LaTeX" level="3"/>
 			<skill what="Python" level="5"/>
 			<skill what="R" level="1"/>
 			<skill what="SQL" level="4"/>
