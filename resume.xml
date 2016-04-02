@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume rID="1234">
+	<resume rID="r1234">
 		<summary>Obtain a challenging position applying creative problem solving skills 
 		to achieve personal goals</summary>
 		<identification>
@@ -48,7 +48,7 @@
 			<skill what="Python" level="5"/>
 		</skill>
 	</resume>
-	<resume rID="5678">
+	<resume rID="r5678">
 		<summary>obtain a position as an Work Study Student</summary>
 		<identification>
 			<name>

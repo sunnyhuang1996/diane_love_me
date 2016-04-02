@@ -2,7 +2,7 @@
 <!DOCTYPE postings SYSTEM "postings.dtd">
 
 <postings>
-	<posting pID="2345">
+	<posting pID="p2345">
 		 <position>Summer Research Assistant</position>
 		 <reqSkill what="SQL" level="5" importance="5"/>
 		 <reqSkill what="Python" level="3" importance="4"/>
@@ -12,7 +12,7 @@
 		 	<question qID="8989">Why you think you are qualified?</question>
 		 </questions>
 	</posting>
-	<posting pID="6666">
+	<posting pID="p6666">
 		 <position>Work Study Student</position>
 		 <reqSkill what="Scheme" level="2" importance="5"/>
 		 <reqSkill what="R" level="3" importance="1"/>

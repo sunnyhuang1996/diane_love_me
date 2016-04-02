@@ -8,7 +8,7 @@
 		<honorific>Professor</honorific>
 		<title>Dean</tile>
 	</interviewer>
-	<interview rID="1234" pID="2345" sID="10089">
+	<interview rID="r1234" pID="p2345" sID="10089">
 		<date>2016-03-16</date>
 		<time>14:00</time>
 		<location>1295 Military Trail, Toronto</location>
@@ -19,7 +19,7 @@
 			<collegiality>89<collegiality>
 		</assessment>
 	</interview>
-	<interview rID="5678" pID="2345" sID="10089">
+	<interview rID="r5678" pID="p2345" sID="10089">
 		<date>2016-03-16</date>
 		<time>16:00</time>
 		<location>1001 Bat Street, Toronto</location>
