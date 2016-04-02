@@ -1,6 +1,6 @@
 let $resume_doc := fn:doc("resume.xml")
 let $resume_count := count($resume_doc//resume)
-
+return $resume_count
 <rareskills>
 {
 for $req_skill in fn:doc("posting.xml")//reqSkill/@what
