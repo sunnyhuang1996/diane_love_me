@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume rID="1234">
+	<resume rID="1234"/>
 		<summary>Obtain a challenging position applying creative problem solving skills 
 		to achieve personal goals</summary>
 		<identification>
@@ -24,7 +24,7 @@
 				<institution>University of Toronto</institution>
 				<major>Computer Science</major>
 				<major>Physics</major>
-				<minor>Statistical Science<minor>
+				<minor>Statistical Science</minor>
 				<honours/>
 				<period>
 					<startDate>2013-09-01</startDate>
