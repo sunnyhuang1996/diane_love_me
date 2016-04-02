@@ -8,4 +8,4 @@ for $posting in fn:doc('posting.xml')//posting
 	}</posting>
 	
 }
-</prioritues>
+</priorities>
