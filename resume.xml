@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE interviews SYSTEM "interview.dtd">
+<!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
 	<resume rID="1234">
 		<summary>Obtain a challenging position applying creative problem solving skills 
