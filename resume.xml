@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume rID="1234"/>
+	<resume rID="1234">
 		<summary>Obtain a challenging position applying creative problem solving skills 
 		to achieve personal goals</summary>
 		<identification>
@@ -43,12 +43,12 @@
 			</position>
 		</experience>
 		<skills>
-			<skill what="R" level="4">
-			<skill what="LaTex" level="3">
-			<skill what="Python" level="5">
+			<skill what="R" level="4"/>
+			<skill what="LaTex" level="3"/>
+			<skill what="Python" level="5"/>
 		</skill>
 	</resume>
-	<resume>
+	<resume rID="5678">
 		<summary>obtain a position as an Work Study Student</summary>
 		<identification>
 			<name>
@@ -88,10 +88,10 @@
 			</position>
 		</experience>
 		<skills>
-			<skill what="LaTex" level="3">
-			<skill what="Python" level="5">
-			<skill what="R" level="1">
-			<skill what="SQL" level="4">
+			<skill what="LaTex" level="3"/>
+			<skill what="Python" level="5"/>
+			<skill what="R" level="1"/>
+			<skill what="SQL" level="4"/>
 		</skill>
 	</resume>
 </resumes>
