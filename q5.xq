@@ -4,7 +4,7 @@ return $resume_count
 <rareskills>
 {
 for $req_skill in fn:doc("posting.xml")//reqSkill/@what
-where count($resume_doc//skill/[@what = $req_skill and @level >3]) < ($resume_count / 2)
+where count($resume_doc//skill/[@what = $req_skill and @level >3]) < $resume_count/2
 return <posting pID="{$req_skill/ancestor::posting/@pID}" skill="{$req_skill}"
 		numwith="{count($resume_doc//skill/[@what = $req_skill]}" 
 		numhigh="{count($resume_doc//skill/[@what = $req_skill and @level >3])}">
