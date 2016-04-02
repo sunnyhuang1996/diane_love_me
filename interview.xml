@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+	<interviewer sID="10089">
+		<forename>Suzanne</forename>
+		<surname>Stevenson</surname>
+		<honorific>Ms.</honorific>
+		<honorific>Professor</honorific>
+		<title>Dean</tile>
+	</interviewer>
+	<interview rID="1234" pID="2345" sID="10089">
+		<date>2016-03-16</date>
+		<time>14:00</time>
+		<location>1295 Military Trail, Toronto</location>
+		<assessment>
+			<techProficiency>88</techProficiency>
+			<communication>92</communication>
+			<enthusiasm>76</enthusiasm>
+			<collegiality>89<collegiality>
+		</assessment>
+	</interview>
+	<interview rID="5678" pID="2345" sID="10089">
+		<date>2016-03-16</date>
+		<time>16:00</time>
+		<location>1001 Bat Street, Toronto</location>
+		<assessment>
+			<techProficiency>96</techProficiency>
+			<communication>87</communication>
+			<enthusiasm>77</enthusiasm>
+			<collegiality>82<collegiality>
+		</assessment>
+	</interview>
+</interviews>

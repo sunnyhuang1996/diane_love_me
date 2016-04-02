@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE postings SYSTEM "postings.dtd">
+
+<postings>
+	<posting pID="2345">
+		 <position>Summer Research Assistant</position>
+		 <reqSkill what="SQL" level="5" importance="5"/>
+		 <reqSkill what="Python" level="3" importance="4"/>
+		 <reqSkill what="LaTeX" level="1" importance="4"/>
+		 <questions>
+		 	<question qID="2333">What related CS courses have you taken?</question>
+		 	<question qID="8989">Why you think you are qualified?</question>
+		 </questions>
+	</posting>
+	<posting pID="6666">
+		 <position>Work Study Student</position>
+		 <reqSkill what="Scheme" level="2" importance="5"/>
+		 <reqSkill what="R" level="3" importance="1"/>
+		 <questions>
+		 	<question qID="2333">What related CS courses have you taken?</question>
+		 	<question qID="7654">How many hours per week will you be available?</question>
+		 </questions>
+	</posting>
+	
+</postings>

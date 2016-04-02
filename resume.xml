@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT resumes (resume+)>
+<!ELEMENT resume (summary?,identification,education?,experience?,skills)>
+<!ATTLIST resume rID ID #REQUIRED>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT identification (name,sex,DOB,citizenship,address,telephone,email)>
+<!ELEMENT name (forename,surname,honorific+,title*)>
+<!ELEMENT forename (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT honorific (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT citizenship (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT education (degree*)>
+<!ELEMENT degree (degreeName,institution,major+,minor*,honours?,period)>
+<!ATTLIST degree level (certificate|undergraduate|professional|masters|doctoral) #REQUIRED>
+<!ELEMENT degreeName (#PCDATA)>
+<!ELEMENT institution (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT honours EMPTY>
+<!ELEMENT experience (position*)>
+<!ELEMENT position (title+,description?,period)>
+<!ATTLIST position where CDATA #REQUIRED>
+<!ELEMENT period (startDate,endDate)>
+<!ELEMENT startDate (#PCDATA)>
+<!ELEMENT endDate (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT skills (skill*)>
+<!ELEMENT skill EMPTY>
+<!ATTLIST skill what (SQL|Scheme|Python|R|LaTeX) #REQUIRED>
+<!ATTLIST skill level (1|2|3|4|5) #REQUIRED>
+
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<resumes>
+	<resume rID="1234">
+		<summary>Obtain a challenging position applying creative problem solving skills 
+		to achieve personal goals</summary>
+		<identification>
+			<name>
+				<forename>Katherine</forename>
+				<surname>Fountain</surname>
+				<honorific>Miss</honorific>
+				<title>Student</title>
+			</name>
+			<sex>Female</sex>
+			<DOB>1994-02-14</DOB>
+			<citizenship>American</citizenship>
+			<address>Baldwin Street #123</address>
+			<telephone>416-345-6781</telephone>
+			<email>k.fountain@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="undergraduate">
+				<degreeName>Bachelor of Science</degreeName>
+				<institution>University of Toronto</institution>
+				<major>Computer Science</major>
+				<major>Physics</major>
+				<minor>Statistical Science<minor>
+				<honours/>
+				<period>
+					<startDate>2013-09-01</startDate>
+					<endDate>2017-07-01</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position where="Victoria College">
+				<title>Web Master</title>
+				<description>maintain Vic College website</description>
+				<period>
+					<startPeriod>2014-04-26</startPeriod>
+					<endPeriod>2014-08-31<endPeriod>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="R" level="4">
+			<skill what="LaTex" level="3">
+			<skill what="Python" level="5">
+		</skill>
+	</resume>
+	<resume>
+		<summary>obtain a position as an Work Study Student</summary>
+		<identification>
+			<name>
+				<forename>Allan</forename>
+				<surname>Goodman</surname>
+				<honorific>Mr</honorific>
+				<title>Student</title>
+			</name>
+			<sex>Male</sex>
+			<DOB>1995-01-13</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>Happy Street #3408</address>
+			<telephone>758-322-6799</telephone>
+			<email>allan.goodman@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="masters">
+				<degreeName>Master of Science</degreeName>
+				<institution>University of Toronto</institution>
+				<major>Computer Science</major>
+				<minor>Psychology<minor>
+				<honours/>
+				<period>
+					<startDate>2014-09-01</startDate>
+					<endDate>2018-07-01</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position where="Department of Computer Science">
+				<title>IT Frontdesk</title>
+				<description>solve Wifi, cdf, software problems</description>
+				<period>
+					<startPeriod>2016-01-26</startPeriod>
+					<endPeriod>2016-05-31<endPeriod>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="LaTex" level="3">
+			<skill what="Python" level="5">
+			<skill what="R" level="1">
+			<skill what="SQL" level="4">
+		</skill>
+	</resume>
+</resumes>
