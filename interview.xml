@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE interviews SYSTEM "interview.dtd">
 <interviews>
-	<interviewer sID="10089">
+	<interviewer sID="s10089">
 		<forename>Suzanne</forename>
 		<surname>Stevenson</surname>
 		<honorific>Ms.</honorific>
 		<honorific>Professor</honorific>
-		<title>Dean</tile>
+		<title>Dean</title>
 	</interviewer>
-	<interview rID="r1234" pID="p2345" sID="10089">
+	<interview rID="r1234" pID="p2345" sID="s10089">
 		<date>2016-03-16</date>
 		<time>14:00</time>
 		<location>1295 Military Trail, Toronto</location>
@@ -16,10 +16,10 @@
 			<techProficiency>88</techProficiency>
 			<communication>92</communication>
 			<enthusiasm>76</enthusiasm>
-			<collegiality>89<collegiality>
+			<collegiality>89</collegiality>
 		</assessment>
 	</interview>
-	<interview rID="r5678" pID="p2345" sID="10089">
+	<interview rID="r5678" pID="p2345" sID="s10089">
 		<date>2016-03-16</date>
 		<time>16:00</time>
 		<location>1001 Bat Street, Toronto</location>
@@ -27,7 +27,7 @@
 			<techProficiency>96</techProficiency>
 			<communication>87</communication>
 			<enthusiasm>77</enthusiasm>
-			<collegiality>82<collegiality>
+			<collegiality>82</collegiality>
 		</assessment>
 	</interview>
 </interviews>
