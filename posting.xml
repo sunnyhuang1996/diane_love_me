@@ -4,9 +4,11 @@
 <postings>
 	<posting pID="p2345">
 		 <position>Summer Research Assistant</position>
-		 <reqSkill what="SQL" level="5" importance="5"/>
-		 <reqSkill what="Python" level="3" importance="4"/>
-		 <reqSkill what="LaTeX" level="1" importance="4"/>
+		 <reqSkill what="SQL" level="4" importance="5"/>
+		 <reqSkill what="R" level="3" importance="4"/>
+		 <reqSkill what="Scheme" level="3" importance="3"/>
+		 <reqSkill what="Python" level="4" importance="4"/>
+		 <reqSkill what="LaTeX" level="5" importance="3"/>
 		 <questions>
 		 	<question qID="2333">What related CS courses have you taken?</question>
 		 	<question qID="8989">Why you think you are qualified?</question>
