@@ -23,5 +23,9 @@
 		 	<question qID="7654">How many hours per week will you be available?</question>
 		 </questions>
 	</posting>
+		<posting pID="p1509">
+		 <position>Web Master</position>
+		 <reqSkill what="Scheme" level="2" importance="1"/>
+	</posting>
 	
 </postings>

@@ -95,4 +95,39 @@
 			<skill what="SQL" level="4"/>
 		</skills>
 	</resume>
+		<resume rID="r9999">
+		<identification>
+			<name>
+				<forename>Leo</forename>
+				<surname>Goldmakher</surname>
+				<honorific>Mr</honorific>
+				<title>Student</title>
+			</name>
+			<sex>Male</sex>
+			<DOB>1995-07-13</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>Scarborough Street #3408</address>
+			<telephone>647-322-6799</telephone>
+			<email>leg.g@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="masters">
+				<degreeName>Master of Science</degreeName>
+				<institution>University of Toronto</institution>
+				<major>Mathematics</major>
+				<minor>Psychology</minor>
+				<honours/>
+				<period>
+					<startDate>2012-09-01</startDate>
+					<endDate>2015-07-01</endDate>
+				</period>
+			</degree>
+		</education>
+		<skills>
+			<skill what="LaTeX" level="3"/>
+			<skill what="Python" level="5"/>
+			<skill what="R" level="1"/>
+			<skill what="SQL" level="4"/>
+		</skills>
+	</resume>
 </resumes>
