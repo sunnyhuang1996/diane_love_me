@@ -1,26 +1,27 @@
 <report>
-	for $interview in fn:doc("interview.xml")//interview
+{
+	for $interview in fn:doc("interview.xml")//interview,
+	    $resume in fn:doc("resume.xml")//resume,
+	    $posting in fn:doc("posting.xml")//posting
+	where $resume/@rID = $interview/@rID and
+	      $posting/@pID = $interview/@pID
 	return <interview> 
-			{
-			for $resume in fn:doc("resume.xml")//resume
-			where $resume/@rID = $interview/@rID
-			return <who rID="{$interview/@rID}"
-						forename="{$resume//forename}"
-						surname="{$resume//surname}"/>
-			}
-			{
-			let $degree_of_match := 0
-			for $posting in fn:doc("posting.xml")//posting
-			where $posting/@pID = $interview/@pID
-			return $posting//postion, {
-					for $skill in $posting//skill
-					if $resume//skill[@what=$skill/@what] and 
-					   $resume//skill[@what=$skill/@what]/@level >= $skill/@level
-					then $degree_of_match = $degree_of_match + $skill/@importance
-					else $degree_of_match = $degree_of_match - $skill/@importance		
-					return <match>{$degree_of_match}</match>
-			},
-			<average>{avg($interview//assessment/*)}</average>
-			}
-	</interview>
+	           <who rID="{$interview/@rID}"
+		   	forename="{$resume//forename}"
+			surname="{$resume//surname}"/>
+		   <position>{data($posting//position)}</position>
+		   {
+	
+		   let $gain_pt := 
+                                    for $own_skill in $resume//skill,
+					$req_skill in $posting//reqSkill[@what = $own_skill/@what]
+				    where $own_skill/@level >= $req_skill/@level
+			            return $req_skill/@importance
+                   let $lose_pt := $posting//reqSkill/@importance except $gain_pt
+		   let $degree_of_match := sum($gain_pt) - sum($lose_pt)
+		   return <match>{$degree_of_match}</match>               
+		    }
+		   <average>{avg($interview//assessment/*)}</average>
+		</interview>
+}
 </report>
