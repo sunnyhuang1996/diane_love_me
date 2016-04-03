@@ -1,3 +1,3 @@
 <?xml version='1.0' standalone='no' ?>
 <!DOCTYPE report SYSTEM 'q7.dtd'>
-./runall.sh: line 52: galax-run: command not found
+<report><interview><who rID="r1234" forename="Katherine" surname="Fountain"/><position>Summer Research Assistant</position><match>5</match><average>86.25</average></interview><interview><who rID="r5678" forename="Allan" surname="Goodman"/><position>Summer Research Assistant</position><match>-1</match><average>85.5</average></interview></report>

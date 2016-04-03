@@ -11,5 +11,5 @@ return <posting pID="{$req_skill/ancestor::posting/@pID}" skill="{$req_skill}"
                 numwith="{count($resume_doc//skill[@what = $req_skill])}"
                 numhigh="{count($resume_doc//skill[@what = $req_skill and @level >"3"])}"/>
 }
-return </rareskills>
+</rareskills>
 

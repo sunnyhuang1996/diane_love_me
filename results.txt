@@ -4,141 +4,87 @@ Checking Assignment 3 (Part 1) Solutions
 
 ------ raw output ------
 
-./runall.sh: line 12: galax-run: command not found
+<skilled><candidate rid="r1234" numskills="4"><name>Katherine</name></candidate><candidate rid="r5678" numskills="4"><name>Allan</name></candidate></skilled>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
+<?xml version="1.0" standalone="no"?>
+<skilled>
+  <candidate rid="r1234" numskills="4">
+    <name>Katherine</name>
+  </candidate>
+  <candidate rid="r5678" numskills="4">
+    <name>Allan</name>
+  </candidate>
+</skilled>
 
 ------ checking validity of output ------
 
 Are there any validity errors? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
-
-============================== Query q2  ==============================
-
------- raw output ------
-
-./runall.sh: line 12: galax-run: command not found
-
------- formatted output (therefore well-formed) ------
-
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
-
------- checking validity of output ------
-
-Are there any validity errors? (no news is good news)
-TEMP.xml:2: warning: failed to load external entity "q2.dtd"
-<!DOCTYPE collegiality SYSTEM 'q2.dtd'>
-                                       ^
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
 
 ============================== Query q3  ==============================
 
 ------ raw output ------
 
-./runall.sh: line 12: galax-run: command not found
+<priorities><posting pID="p2345"><skill importance="5">SQL</skill></posting><posting pID="p6666"><skill importance="1">Scheme</skill><skill importance="1">R</skill></posting></priorities>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
+<?xml version="1.0" standalone="no"?>
+<priorities>
+  <posting pID="p2345">
+    <skill importance="5">SQL</skill>
+  </posting>
+  <posting pID="p6666">
+    <skill importance="1">Scheme</skill>
+    <skill importance="1">R</skill>
+  </posting>
+</priorities>
 
 ------ checking validity of output ------
 
 Are there any validity errors? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
-
-============================== Query q4  ==============================
-
------- raw output ------
-
-./runall.sh: line 12: galax-run: command not found
-
------- formatted output (therefore well-formed) ------
-
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
-
------- checking validity of output ------
-
-Are there any validity errors? (no news is good news)
-TEMP.xml:2: warning: failed to load external entity "q4.dtd"
-<!DOCTYPE missingskills SYSTEM 'q4.dtd'>
-                                        ^
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
 
 ============================== Query q5  ==============================
 
 ------ raw output ------
 
-./runall.sh: line 12: galax-run: command not found
+<rareskills numresumes="2"/>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
+<?xml version="1.0" standalone="no"?>
+<rareskills numresumes="2"/>
 
 ------ checking validity of output ------
 
 Are there any validity errors? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
-
-============================== Query q6  ==============================
-
------- raw output ------
-
-./runall.sh: line 12: galax-run: command not found
-
------- formatted output (therefore well-formed) ------
-
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
-
------- checking validity of output ------
-
-Are there any validity errors? (no news is good news)
-TEMP.xml:2: warning: failed to load external entity "q6.dtd"
-<!DOCTYPE histogram SYSTEM 'q6.dtd'>
-                                    ^
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
 
 ============================== Query q7  ==============================
 
 ------ raw output ------
 
-./runall.sh: line 12: galax-run: command not found
+<report><interview><who rID="r1234" forename="Katherine" surname="Fountain"/><position>Summer Research Assistant</position><match>5</match><average>86.25</average></interview><interview><who rID="r5678" forename="Allan" surname="Goodman"/><position>Summer Research Assistant</position><match>-1</match><average>85.5</average></interview></report>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-./runall.sh: line 20: galax-run: command not found
-^
+<?xml version="1.0" standalone="no"?>
+<report>
+  <interview>
+    <who rID="r1234" forename="Katherine" surname="Fountain"/>
+    <position>Summer Research Assistant</position>
+    <match>5</match>
+    <average>86.25</average>
+  </interview>
+  <interview>
+    <who rID="r5678" forename="Allan" surname="Goodman"/>
+    <position>Summer Research Assistant</position>
+    <match>-1</match>
+    <average>85.5</average>
+  </interview>
+</report>
 
 ------ checking validity of output ------
 
 Are there any validity errors? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-./runall.sh: line 52: galax-run: command not found
-^
 
