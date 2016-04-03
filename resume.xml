@@ -43,6 +43,7 @@
 			</position>
 		</experience>
 		<skills>
+			<skill what="Scheme" level="3">
 			<skill what="R" level="4"/>
 			<skill what="SQL" level="5"/>
 			<skill what="LaTeX" level="5"/>
