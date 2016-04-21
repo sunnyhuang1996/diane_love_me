@@ -16,7 +16,7 @@
 	</posting>
 	<posting pID="p6666">
 		 <position>Work Study Student</position>
-		 <reqSkill what="Scheme" level="2" importance="1"/>
+		 <reqSkill what="Scheme" level="4" importance="1"/>
 		 <reqSkill what="R" level="3" importance="1"/>
 		 <questions>
 		 	<question qID="2333">What related CS courses have you taken?</question>
@@ -25,7 +25,7 @@
 	</posting>
 		<posting pID="p1509">
 		 <position>Web Master</position>
-		 <reqSkill what="Scheme" level="2" importance="1"/>
+		 <reqSkill what="Scheme" level="4" importance="1"/>
 	</posting>
 	
 </postings>
