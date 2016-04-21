@@ -7,6 +7,8 @@
 		<location>1295 Military Trail, Toronto</location>
 		<assessment>
 			<answers>
+				<answer>88</answer>
+			</answers>
 			<techProficiency>88</techProficiency>
 			<communication>92</communication>
 			<enthusiasm>76</enthusiasm>
