@@ -7,7 +7,7 @@
 		 <reqSkill what="SQL" level="4" importance="5"/>
 		 <reqSkill what="R" level="3" importance="4"/>
 		 <reqSkill what="Scheme" level="3" importance="3"/>
-		 <reqSkill what="Python" level="4" importance="4"/>
+		 <reqSkill what="Python" level="1" importance="4"/>
 		 <reqSkill what="LaTeX" level="5" importance="3"/>
 		 <questions>
 		 	<question qID="2333">What related CS courses have you taken?</question>

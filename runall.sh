@@ -1,7 +1,7 @@
 echo "Checking Assignment 3 (Part 1) Solutions" > results.txt
 echo "" >> results.txt
 
-for query in q1 q3 q5 q7
+for query in q5
 do
    echo "============================== Query" $query " ==============================" >> results.txt
    echo "" >> results.txt
